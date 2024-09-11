@@ -1,12 +1,15 @@
 [tool.poetry]
-name = "diagrams"
-version = "0.24.0"
+name = "compat-fork-diagrams"
+version = "0.24.1"
 description = "Diagram as Code"
 license = "MIT"
 authors = ["mingrammer <mingrammer@gmail.com>"]
 readme = "README.md"
 homepage = "https://diagrams.mingrammer.com"
 repository = "https://github.com/mingrammer/diagrams"
+packages = [
+    { include = "diagrams", from = "." },
+]
 include = ["resources/**/*"]
 
 [tool.poetry.dependencies]
