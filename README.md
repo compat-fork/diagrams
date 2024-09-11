@@ -5,7 +5,8 @@ to update it with support for newer Python versions.
 
 Compat-fork changelog:
 
-- None yet
+- Version 0.24.0 (September 10, 2024)
+  - Drop dependency on typed-ast to add support for Python 3.12 and 3.13
 
 ![diagrams logo](assets/img/diagrams.png)
 
