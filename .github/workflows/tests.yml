@@ -5,20 +5,20 @@ on:
     branches:
       - master
     paths:
-      - ".github/workflows/test.yml"
+      - ".github/workflows/tests.yml"
       - "**.py"
   pull_request:
     branches:
       - master
     paths:
-      - ".github/workflows/test.yml"
+      - ".github/workflows/tests.yml"
       - "**.py"
 
 jobs:
   test:
     strategy:
       matrix:
-        python: ["3.9", "3.10", "3.11"]
+        python: ["3.9", "3.10", "3.11", "3.12", "3.13-dev"]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
