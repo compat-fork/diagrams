@@ -5,6 +5,8 @@ to update it with support for newer Python versions.
 
 Compat-fork changelog:
 
+- Version 0.24.1 (September 10, 2024)
+  - Fix packaging
 - Version 0.24.0 (September 10, 2024)
   - Drop dependency on typed-ast to add support for Python 3.12 and 3.13
 
