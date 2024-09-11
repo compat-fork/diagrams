@@ -1,3 +1,12 @@
+# compat-fork-diagrams
+
+This is a fork of the [diagrams](https://github.com/mingrammer/diagrams) library
+to update it with support for newer Python versions.
+
+Compat-fork changelog:
+
+- None yet
+
 ![diagrams logo](assets/img/diagrams.png)
 
 # Diagrams
