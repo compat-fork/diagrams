@@ -1,7 +1,9 @@
 # compat-fork-diagrams
 
+[![pypi version](https://badge.fury.io/py/compat-fork-diagrams.svg)](https://badge.fury.io/py/compat-fork-diagrams)
+
 This is a fork of the [diagrams](https://github.com/mingrammer/diagrams) library
-to update it with support for newer Python versions.
+to add compatibility fixes. It is part of the [compat-fork](https://github.com/compat-fork) project.
 
 Compat-fork changelog:
 
@@ -9,6 +11,10 @@ Compat-fork changelog:
   - Fix packaging
 - Version 0.24.0 (September 10, 2024)
   - Drop dependency on typed-ast to add support for Python 3.12 and 3.13
+
+---
+
+Original README follows:
 
 ![diagrams logo](assets/img/diagrams.png)
 
