@@ -6,7 +6,7 @@ license = "MIT"
 authors = ["mingrammer <mingrammer@gmail.com>"]
 readme = "README.md"
 homepage = "https://diagrams.mingrammer.com"
-repository = "https://github.com/mingrammer/diagrams"
+repository = "https://github.com/compat-fork/diagrams"
 packages = [
     { include = "diagrams", from = "." },
 ]
